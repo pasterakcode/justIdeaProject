@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Just Idea</title>
+	</head>
+	<body>
+		<section class="areasOfCompetence container">
+			<div class="header">
+				<h2>Obszary naszych kompetencji</h2>
+				<p>
+					Pomagamy uczyś się na błędach innych. Wspieramy i rekomendujemy
+					wartościowe rozwiązania biznesowe
+				</p>
+			</div>
+			<div class="offer">
+				<div class="gear">
+					<div class="center"></div>
+				</div>
+				<div class="connectLineElement"></div>
+				<div class="worldOrbit"></div>
+				<div class="world">
+					<div class="elipse"></div>
+					<div class="worldInfo">poznaj nasze kompetencje</div>
+				</div>
+			</div>
+		</section>
+		<section class="competenceListForMobile container">
+			<ul>
+			</ul>
+		</section>
+		<section class="contact">
+			<div class="container">
+				<div class="header">
+					<h3>Skontaktuj się z nami</h3>
+					<p>Zadzwoń <span>+48 535 015 835</span> lub wypełnij formularz.</p>
+				</div>
+				<form>
+					<div class="inputsGroup">
+						<input
+							class="input"
+							type="text"
+							name="name&secondName"
+							id="name&secondName"
+							placeholder="Imię i Nazwisko"
+						/>
+						<input
+							class="input"
+							type="number"
+							name="phoneNumber"
+							id="name&phoneNumber"
+							placeholder="Telefon"
+						/>
+						<input
+							class="input"
+							type="email"
+							name="email"
+							id="emali"
+							placeholder="E-mail"
+						/>
+					</div>
+					<div class="inputsGroup">
+						<input
+							class="input"
+							type="text"
+							name="company"
+							id="company"
+							placeholder="Firma"
+						/>
+						<select class="form-select input" id="workersQty">
+							<option value="hide">ilość pracowników</option>
+							<option value="1">- 50 osób</option>
+							<option value="2">50 - 100 osób</option>
+							<option value="3">100 osób</option>
+						</select>
+						<select class="form-select input" id="yearResultCompany">
+							<option value="hide">Roczny dochód firmy</option>
+							<option value="1">- 50 osób</option>
+							<option value="2">50 - 100 osób</option>
+							<option value="3">100 osób</option>
+						</select>
+					</div>
+					<textarea
+						class="form-control inputTextArea"
+						id="exampleFormControlTextarea1"
+						rows="3"
+						placeholder="Wiadomość"
+					></textarea>
+					<div class="rulesConfirmedArea">
+						<input type="checkbox" name="rulesConfirmed" id="rulesConfirmed" />
+						<label for="rulesConfirmed">
+							Zapoznałem(-łam) się z <a href="#">Polityką prywatności</a> oraz z
+							<a href="#">Zastrzeżeniami prawnymi</a>
+						</label>
+					</div>
+					<button type="submit">wyślij</button>
+				</form>
+			</div>
+			<div class="heroImage"></div>
+			<div class="circle1"></div>
+			<div class="circle2"></div>
+		</section>
+
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script src="data.js"></script>
+		<script src="mobileVersion.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
